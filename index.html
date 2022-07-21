@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/57ec20ceb2.js" crossorigin="anonymous"></script>
+    <title>Fresh site</title>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+           <nav>
+               <img src="images/army logo.png" alt="logo" class="logo">
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Gallery</a></li>
+                   <li><a href="#">Services</a></li>
+                <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+           </nav>
+           <div class="header-text">
+               <p>Changing the world</p>
+               <h1>Hi, I am <span style="color:#ff004f;">Jen</span><br> The Developer</h1>
+           </div>
+       </div>
+    </div>
+  <!-- this is the about page section -->
+    <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/army logo.png" alt="logo">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About them</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsum 
+                accusamus illo, aliquid tempore ea veniam itaque debitis modi numquam excepturi
+                 vero aliquam dicta rem consectetur ut porro amet fuga!</p>
+
+                 <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                     <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                     <p class="tab-links" onclick="opentab('education')"> Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                         <li><span>UI/UX</span><br>Design web/ interfaces</li>
+                         <li><span>Graphics</span><br>Design</li>
+                         <li><span>Interior</span><br>Design</li>
+                     </ul>
+                 </div>
+                 <div class="tab-contents active-tab2" id="experience">
+                    <ul>
+                        <li><span>2018</span><br>Face modelling</li>
+                        <li><span>2021</span><br>Networking with Models</li>
+                        <li><span>2021</span><br>Networking with military</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2014</span><br>Lassmock</li>
+                        <li><span>2019</span><br>FUO</li>
+                    </ul>
+                </div>
+        </div>
+</div>
+    </div>
+    <!-- end of about -->
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">The services they render.</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Consectetur sequi eaque
+                         velit omnis repellendus facilis, quis natus
+                          quam molestiae dolorem cupiditate 
+                        voluptas quasi unde obcaecati! Iste
+                         eligendi ullam voluptas tempore!</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Model design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Consectetur sequi eaque
+                         velit omnis repellendus facilis, quis natus
+                          quam molestiae dolorem cupiditate 
+                        voluptas quasi unde obcaecati! Iste
+                         eligendi ullam voluptas tempore!</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile display</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Consectetur sequi eaque
+                         velit omnis repellendus facilis, quis natus
+                          quam molestiae dolorem cupiditate 
+                        voluptas quasi unde obcaecati! Iste
+                         eligendi ullam voluptas tempore!</p>
+                         <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Gallary section-->
+<div id="portfolio">
+    <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+           <div class="work">
+               <img src="images/infantry logo.jpeg" alt="1">
+               <div class="layer">
+                   <h3>Social media app</h3>
+                   <p>Its fun to be with and to play with</p>
+                   <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+           </div>
+           <div class="work">
+            <img src="images/infantry logo.jpeg" alt="2">
+            <div class="layer">
+                <h3>Photo app</h3>
+                <p>Gallary of people.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/infantry logo.jpeg" alt="3">
+            <div class="layer">
+                <h3>Digital app</h3>
+                <p>Digital networking people.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>080873673903</p>
+                 <div class="social-icons">
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                     <a href="#"><i class="fab fa-twitter-square"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin"></i></a>
+                 </div>
+                <a href="images/pop1.jpeg" download class="btn btn2">Download Image</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright mil <i class="fa-solid fa-heart"></i>2022</p>
+    </div>
+</div>
+    <script src="JS/index.js"></script>
+</body>
+</html>
